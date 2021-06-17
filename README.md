@@ -22,6 +22,7 @@ This project walks you through one of the most popular Udacity projects across m
 * You can also use you own images to test the app and there are some images provided for you in the img folder
 
 ## Results<a name="results"></a>
+* First, you can check out my Medium article that better describes the process [here](https://anahristian.medium.com/how-to-build-an-ai-app-that-classifies-images-of-dogs-according-to-their-breed-3ebff6087cbf)
 * Creating a CNN to classify dog breeds from scratch doesn’t give great accuracy. After training my from scratch model for 50 epochs I did get an accuracy of 26%. Not that great and did take some time to train.
 * On the other hand, using transfer learning to create a CNN that can identify dog breeds from images proved to be more consistent with our task. I used a pre-trained densenet121 model, freezed its parameters and reshaped the final layer to have the same number of outputs as the number of classes from our dataset. Trained the model only for three epochs and got an 81% accuracy. This is a great improvement which let us use this model for our app.
 The model does a pretty good job at classifying dog breeds and gives a human a funny dog breed estimator but there are ways to improve our algorithm.
